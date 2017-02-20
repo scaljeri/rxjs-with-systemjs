@@ -1,3 +1,7 @@
+### Setup
+
+    $> yarn install
+    
 ### Bundling
 
     $> node build.js
