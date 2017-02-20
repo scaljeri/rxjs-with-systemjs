@@ -9,10 +9,11 @@ SystemJS.config({
     },
     paths: {
         'npm:': 'node_modules/',
-        'main': 'src/index'
+        'main': 'src/index',
+        'rxjs*': 'node_modules/rxjs/bundles/Rx.min.js'
     },
     map: {
-        'rxjs/Observable': 'npm:rxjs/Observable',
+        //'rxjs/Observable': 'npm:rxjs/Observable',
         'rxjs': 'npm:rxjs',
         'plugin-babel': 'node_modules/systemjs-plugin-babel/plugin-babel.js',
         'systemjs-babel-build': 'node_modules/systemjs-plugin-babel/systemjs-babel-browser.js',
